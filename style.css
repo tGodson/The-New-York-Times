@@ -76,7 +76,7 @@ body {
 .first-row, .second-row, .third-row {
     display: grid;
     grid-template-columns: repeat(3, 31.3%);
-  grid-template-rows: repeat(3,  100px);
+  grid-template-rows: repeat(3,  110px);
     justify-content: space-between;
 }
 .first-row p, .second-row p, .third-row p{
@@ -108,4 +108,10 @@ hr{
 .more-in-space{
     display: block;
     flex-direction: column;
+}
+.hr1{
+    border: gray solid 1px;
+}
+.hr2{
+    border: gray solid 0.35px;
 }
