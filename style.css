@@ -1,7 +1,3 @@
-.more-in-space{
-    display: block;
-    flex-direction: column;
-}
 header{
     display: flex;
     justify-content: space-between;
@@ -42,6 +38,10 @@ header{
     margin-right: auto;
 }
 
+.left-nav img {
+    padding-right: 19px;
+}
+
 .sticky {
     position: fixed;
     top: 0;
@@ -50,7 +50,7 @@ header{
 } 
 
 img[alt="menu"], img[alt="search"] {
-    height: 14px;
+    height: 12px;
     width: auto;
 }
 
@@ -68,7 +68,6 @@ img[alt="superJumbo"] {
     letter-spacing: 0.7px;
     line-height: 19px;
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -99,4 +98,52 @@ a {
     letter-spacing: 0.05em;
     padding: 11px 12px 8px;
     text-transform: uppercase;
+}
+body {
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.popular-wrapper{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: 20px;
+}
+.left-wrapper{
+    padding-right: 30px;
+}
+.first-row, .second-row, .third-row {
+    display: grid;
+    grid-template-columns: repeat(3, 31.3%);
+  grid-template-rows: repeat(3,  100px);
+    justify-content: space-between;
+}
+.first-row p, .second-row p, .third-row p{
+    font-size: 15px;
+}
+ span {
+    font-size: 10px;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.one{
+    color: black;
+    border: 1px solid;
+}
+hr{
+    color: gray;
+}
+.date{
+    font-size: 11px;
+    color: gray;
+}
+.image-row{
+    height: auto;
+    width: 100%;
+}
+.more-in-space{
+    display: block;
+    flex-direction: column;
 }
