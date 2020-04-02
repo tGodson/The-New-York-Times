@@ -4,14 +4,39 @@ body {
 
 .popular-wrapper{
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 75% 25%;
     margin: 20px;
+}
+.left-wrapper{
+    padding-right: 30px;
 }
 .first-row, .second-row, .third-row {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
-  grid-template-rows: repeat(3,  300px);
+    grid-template-columns: repeat(3, 31.3%);
+  grid-template-rows: repeat(3,  100px);
     justify-content: space-between;
+}
+.first-row p, .second-row p, .third-row p{
+    font-size: 15px;
+}
+ span {
+    font-size: 10px;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.one{
+    color: black;
+    border: 1px solid;
+}
+hr{
+    color: gray;
+}
+.date{
+    font-size: 11px;
+    color: gray;
 }
 img{
     height: auto;
