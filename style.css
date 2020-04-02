@@ -30,8 +30,15 @@ header{
 
 .superJumbo {
     width: 780px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
+.superJumbo span {
+    font-size: 0.9rem;
+}
 .superJumbo-div {
     width: 950px;
     margin-left: auto;
