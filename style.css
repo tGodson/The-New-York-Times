@@ -101,9 +101,10 @@ hr{
     font-size: 11px;
     color: gray;
 }
-img{
+.image-row{
     height: auto;
     width: 100%;
+}
 .more-in-space{
     display: block;
     flex-direction: column;
