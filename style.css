@@ -79,11 +79,6 @@ img[alt="superJumbo"] {
     line-height: 19px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 .header-button button:hover {
     border: 1px solid #326891;
 }
@@ -128,6 +123,9 @@ body {
 .left-wrapper {
     padding-right: 30px;
 }
+.left-wrapper a{
+    color: black;
+}
 
 .first-row,
 .second-row,
@@ -147,7 +145,7 @@ body {
 span {
     font-size: 10px;
 }
-.hr, span, .date, .hr-margin{
+.hr, span, .date, .hr-margin, .horizontal li a{
     color: gray;
 }
 .hr-margin{
@@ -187,11 +185,12 @@ span {
 }
 .home-page{
     font-size: 11px;
+    color: blue;
 }
 
 .vertical-line {
     border-left: 1px solid grey;
-    height: 370px;
+    height: 360px;
     width: 2px;
     margin-left:15px;
 }
@@ -212,6 +211,9 @@ footer{
     font-size: 14px;
     line-height: 25px;
     margin-top: -50px;
+}
+.news-column ul li a{
+    color: black;
 }
 
 .horizontal {
@@ -241,16 +243,19 @@ footer{
 a:link {
     text-decoration: none;
   }
-  a:visited {
-    text-decoration: none;
+  .left-wrapper a:hover{
+    color: gray;
   }
-  a:hover {
-    text-decoration: underline;
+  .most-popular a:hover{
+      color: gray;
   }
-  a:active {
-    text-decoration: underline;
+   .news-column a:hover {
+    text-decoration:underline;
   }
   .last-hr{
       margin-left: 50px;
       margin-right: 50px;
+  }
+  .most-popular p a{
+      color: black;
   }
