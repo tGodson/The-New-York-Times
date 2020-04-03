@@ -183,6 +183,9 @@ hr {
     justify-content: space-between;
     margin: 30px;
 }
+.home-page{
+    font-size: 11px;
+}
 
 .vertical-line {
     border-left: 1px solid grey;
