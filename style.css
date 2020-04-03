@@ -159,3 +159,21 @@ hr{
     flex-direction: row;
     justify-content: space-between;
 }
+.vertical-line{
+    border-left: 1px solid green;
+    height: 300px;
+    width: 2px;
+
+}
+.news-column{
+    display: grid;
+   grid-template-columns:1fr 1fr 1fr 1fr 1fr 2px 1fr;
+   justify-self: start;
+
+}
+/*
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
