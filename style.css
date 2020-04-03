@@ -10,9 +10,61 @@ header{
     visibility: visible;
 }
 
-img[alt="menu"], img[alt="search"] {
-    height: 14px;
+.body1 {
+    padding: 16px;
     width: auto;
+    justify-content: center;
+}
+
+.body1 h2 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #121212;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.superJumbo {
+    width: 780px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.superJumbo span {
+    font-size: 0.9rem;
+}
+.superJumbo-div {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-nav img {
+    padding-right: 19px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 97%;
+} 
+
+img[alt="menu"], img[alt="search"] {
+    height: 12px;
+    width: auto;
+}
+
+img[alt="superJumbo"] {
+    width: 945px;
+    height: 532px;
+    vertical-align: top;
 }
 
 .space-cosmos {
@@ -20,9 +72,6 @@ img[alt="menu"], img[alt="search"] {
     font-family: nyt-franklin,helvetica,arial,sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    -webkit-letter-spacing: 0.7px;
-    -moz-letter-spacing: 0.7px;
-    -ms-letter-spacing: 0.7px;
     letter-spacing: 0.7px;
     line-height: 19px;
 }
@@ -44,7 +93,6 @@ a {
     border-radius: 3px;
     cursor: pointer;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
-    -webkit-transition: ease 0.6s;
     transition: ease 0.6s;
     white-space: nowrap;
     vertical-align: middle;
@@ -54,9 +102,6 @@ a {
     font-size: 11px;
     line-height: 11px;
     font-weight: 700;
-    -webkit-letter-spacing: 0.05em;
-    -moz-letter-spacing: 0.05em;
-    -ms-letter-spacing: 0.05em;
     letter-spacing: 0.05em;
     padding: 11px 12px 8px;
     text-transform: uppercase;
