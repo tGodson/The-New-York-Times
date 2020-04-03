@@ -145,9 +145,10 @@ body {
 
 span {
     font-size: 10px;
+}
+.hr, span, .date{
     color: gray;
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -157,14 +158,8 @@ a {
     color: black;
     border: 1px solid;
 }
-
-hr {
-    color: gray;
-}
-
 .date {
-    font-size: 11px;
-    color: gray;
+    font-size: 12px;
 }
 
 .image-row {
