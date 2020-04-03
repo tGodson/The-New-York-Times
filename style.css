@@ -186,7 +186,7 @@ a {
     border-left: 1px solid grey;
     height: 370px;
     width: 2px;
-    margin-left: 25px;
+    margin-left: px;
 }
 
 .news-column {
@@ -213,5 +213,17 @@ a {
 
 .horizontal li {
     list-style-type: none;
+    font-size: 11px;
+}
+.subscribe{
+    border-radius: 50%;
+}
+.h4-group{
+    line-height: 0.8px;
+}
+.h4-group img{
+    margin-bottom: -8px;
+}
+.small-subscribe{
     font-size: 11px;
 }
