@@ -205,8 +205,15 @@ hr {
     line-height: 25px;
 }
 
-.horizontal{
+.horizontal {
     display: grid;
-   grid-template-columns: repeat(13, 1fr);
-   
+    grid-template-columns: 2.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.horizontal li {
+    list-style-type: none;
+    font-size: 10px;
 }
