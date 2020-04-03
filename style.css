@@ -115,7 +115,7 @@ a {
 }
 
 body {
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-family: nyt-franklin, georgia, 'times new roman', times, serif;
 }
 
 .popular-wrapper {
@@ -185,10 +185,10 @@ hr {
 }
 
 .vertical-line {
-    border-left: 1px solid green;
-    height: 300px;
+    border-left: 1px solid grey;
+    height: 370px;
     width: 2px;
-
+    margin-left: 25px;
 }
 
 .news-column {
@@ -215,5 +215,5 @@ hr {
 
 .horizontal li {
     list-style-type: none;
-    font-size: 10px;
+    font-size: 11px;
 }
