@@ -109,9 +109,8 @@ hr{
     display: block;
     flex-direction: column;
 }
-.hr1{
-    border: gray solid 1px;
-}
-.hr2{
-    border: gray solid 0.35px;
+.bottom-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
