@@ -243,13 +243,14 @@ footer{
 a:link {
     text-decoration: none;
   }
-  .left-wrapper a:hover{
+  .hover-row a:hover{
     color: gray;
+    text-decoration: underline;
   }
-  .most-popular a:hover{
+  .most-popular a:hover, .left-wrapper a:hover, .third-row a:hover {
       color: gray;
   }
-   .news-column a:hover {
+   .news-column a:hover{
     text-decoration:underline;
   }
   .last-hr{
