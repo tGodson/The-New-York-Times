@@ -1,7 +1,8 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;  /* <--- Really freaking cool! */
+    flex-direction: row;
+    /* <--- Really freaking cool! */
     align-items: center;
     padding: 4px 15px 2px;
     height: 36px;
@@ -24,7 +25,7 @@ header{
     font-size: 2.5rem;
     line-height: 3rem;
     color: #121212;
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
     font-weight: 700;
     font-style: italic;
 }
@@ -34,7 +35,7 @@ header{
     font-size: 0.9375rem;
     line-height: 1.25rem;
     color: #666;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .superJumbo span {
@@ -56,9 +57,10 @@ header{
     top: 0;
     background: #fff;
     width: 97%;
-} 
+}
 
-img[alt="menu"], img[alt="search"] {
+img[alt="menu"],
+img[alt="search"] {
     height: 12px;
     width: auto;
     background-color: #fff;
@@ -211,30 +213,29 @@ font-family: nyt-franklin,arial,helvetica,sans-serif;
   
 .space-cosmos {
     font-size: 14.25px;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.7px;
     line-height: 19px;
 }
-a {
-    text-decoration: none;
-    color: black;
-}
 
 .header-button button:hover {
     border: 1px solid #326891;
 }
+
 .header-button button:hover {
     background-color: #326891;
 }
+
 .header-button button {
     padding: 11px 12px 8px;
 }
+
 .header-button button {
     border-radius: 3px;
     cursor: pointer;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     transition: ease 0.6s;
     white-space: nowrap;
     vertical-align: middle;
@@ -255,7 +256,7 @@ a {
 }
 
 body {
-    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+    font-family: nyt-franklin, georgia, 'times new roman', times, serif;
 }
 
 .dennis {
@@ -269,64 +270,153 @@ body {
     color: #333;
 }
 
-.popular-wrapper{
+.popular-wrapper {
     display: grid;
     grid-template-columns: 75% 25%;
-    margin: 20px;
+    margin: 50px;
+    margin-bottom: -15px;
 }
-.left-wrapper{
+
+.left-wrapper {
     padding-right: 30px;
 }
-.first-row, .second-row, .third-row {
-    display: grid;
-    grid-template-columns: repeat(3, 31.3%);
-  grid-template-rows: repeat(3,  110px);
-    justify-content: space-between;
-}
-.first-row p, .second-row p, .third-row p{
-    font-size: 15px;
-}
- span {
-    font-size: 10px;
-    color: gray;
-}
-a{
-    text-decoration: none;
+.left-wrapper a{
     color: black;
 }
-.one{
+
+.first-row,
+.second-row,
+.third-row {
+    display: grid;
+    grid-template-columns: repeat(3, 31.3%);
+    grid-template-rows: repeat(3, 105px);
+    justify-content: space-between;
+}
+
+.first-row p,
+.second-row p,
+.third-row p {
+    font-size: 15px;
+}
+
+span {
+    font-size: 10px;
+    cursor: pointer;
+}
+.hr, span, .date, .hr-margin, .horizontal li a{
+    color: gray;
+}
+.hr-margin{
+    margin-top: -5px;
+    color: rgb(209, 204, 204) ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.hr-border{
+    border: rgb(209, 204, 204) solid 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.one {
     color: black;
     border: 1px solid;
 }
-hr{
-    color: gray;
+.date {
+    font-size: 12px;
 }
-.date{
-    font-size: 11px;
-    color: gray;
-}
-.image-row{
+
+.image-row {
     height: auto;
     width: 100%;
 }
-.more-in-space{
+
+.more-in-space {
     display: block;
     flex-direction: column;
 }
-.bottom-logo{
+
+.bottom-logo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 50px;
 }
-.vertical-line{
-    border-left: 1px solid green;
-    height: 300px;
+.home-page{
+    font-size: 11px;
+    color: blue;
+}
+
+.vertical-line {
+    border-left: 1px solid grey;
+    height: 360px;
     width: 2px;
-
+    margin-left:15px;
 }
-.news-column{
+
+.news-column {
     display: grid;
-   grid-template-columns:1fr 1fr 1fr 1fr 1fr 2px 1fr;
-   justify-self: start;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2px 1fr;
+    justify-self: start;
+    margin: 30px;
 
 }
+footer{
+    margin-top: -40px;
+}
+
+.news-column ul {
+    list-style: none;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: -50px;
+}
+.news-column ul li a{
+    color: black;
+}
+
+.horizontal {
+    display: grid;
+    grid-template-columns: 2.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+}
+
+.horizontal li {
+    list-style-type: none;
+    font-size: 11px;
+}
+.subscribe{
+    border-radius: 50%;
+}
+.h4-group{
+    line-height: 0.8px;
+}
+.h4-group img{
+    margin-bottom: -8px;
+}
+.small-subscribe{
+    font-size: 11px;
+}
+a:link {
+    text-decoration: none;
+  }
+  .hover-row a:hover{
+    color: gray;
+    text-decoration: underline;
+  }
+  .most-popular a:hover, .left-wrapper a:hover, .third-row a:hover {
+      color: gray;
+  }
+   .news-column a:hover{
+    text-decoration:underline;
+  }
+  .last-hr{
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+  .most-popular p a{
+      color: black;
+  }
