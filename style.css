@@ -8,6 +8,7 @@ header{
     position: relative;
     background: transparent;
     visibility: visible;
+    box-shadow: 0 6px 4px -6px #666;
 }
 
 .body1 {
@@ -60,6 +61,7 @@ header{
 img[alt="menu"], img[alt="search"] {
     height: 12px;
     width: auto;
+    background-color: #fff;
 }
 
 img[alt="superJumbo"] {
@@ -68,6 +70,145 @@ img[alt="superJumbo"] {
     vertical-align: top;
 }
 
+.date {
+    padding-bottom: 25px;
+}
+
+.date img {
+    float: right;
+    padding-right: 10px;
+}
+
+.article1 p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 0.9375rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.free-article {
+    width: 60px;
+}
+
+.article1 .article1-div p {
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 700;
+}
+
+.article1-div a {
+    color: rgb(50, 104, 145);
+}
+
+.inflation {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.astronomers{
+    font-size: .875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    color: #666;
+}
+
+.theory {
+    margin-bottom: 15px;
+}
+
+.theory h3 {
+    color: 'black';
+    margin-bottom: 0;
+}
+
+img[alt="Snow"] {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+  }
+  
+  .universe {
+    position: absolute;
+    top: 24.8264%;
+    left: 0.0436%;
+    width: 228px;
+  }
+  
+  .enough-time {
+    position: absolute;
+    top: 24.8264%;
+    left: 25.5619%;
+    width: 228px;
+  }
+  
+  .distance {
+    position: absolute;
+    top: 24.8264%;
+    left: 51.0800%;
+    width: 228px;
+  }
+  
+  .coffee {
+    position: absolute;
+    top: 24.8264%;
+    left: 76.5982%;
+    width: 228px;
+  }
+  
+  .not-enough {
+    position: absolute;
+    top: 73.4375%;
+    left: 0.0436%;
+    width: 228px;
+  }
+
+   .fluctuation {
+    position: absolute;
+    top: 73.4375%;
+    left: 51.0800%;
+    width: 228px;
+  }
+
+   .inflat {
+    position: absolute;
+    top: 73.4375%;
+    left: 25.5619%;
+    width: 228px;
+  }
+
+   .expansion {
+    position: absolute;
+    top: 73.4375%;
+    left: 76.5982%;
+    width: 228px;
+  }
+
+  .theory-line {
+    width: 50px;
+    border: 1px solid black;
+    left:0;
+    margin-top: 35px;
+  }  
+
+.theory-bottom p {
+    font-size: .875rem;
+line-height: 1.125rem;
+font-weight: 500;
+font-style: normal;
+font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+  
 .space-cosmos {
     font-size: 14.25px;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
@@ -107,8 +248,25 @@ a {
     padding: 11px 12px 8px;
     text-transform: uppercase;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
 body {
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.dennis {
+    font-size: 0.9375rem;
+    display: inline-block;
+    letter-spacing: 0.02em;
+    line-height: 1.125rem;
+    margin: 0;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 700;
+    color: #333;
 }
 
 .popular-wrapper{
@@ -171,10 +329,4 @@ hr{
    grid-template-columns:1fr 1fr 1fr 1fr 1fr 2px 1fr;
    justify-self: start;
 
-}
-/*
-.horizontal{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
