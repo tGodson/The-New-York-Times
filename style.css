@@ -121,7 +121,7 @@ body {
 .popular-wrapper {
     display: grid;
     grid-template-columns: 75% 25%;
-    margin: 20px;
+    margin: 50px;
 }
 
 .left-wrapper {
@@ -146,14 +146,20 @@ body {
 span {
     font-size: 10px;
 }
-.hr, span, .date{
+.hr, span, .date, .hr-margin{
     color: gray;
 }
-a {
-    text-decoration: none;
-    color: black;
+.hr-margin{
+    margin-top: -5px;
+    color: rgb(209, 204, 204) ;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
+.hr-border{
+    border: rgb(209, 204, 204) solid 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .one {
     color: black;
     border: 1px solid;
@@ -176,7 +182,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 30px;
+    margin: 50px;
 }
 .home-page{
     font-size: 11px;
@@ -186,7 +192,7 @@ a {
     border-left: 1px solid grey;
     height: 370px;
     width: 2px;
-    margin-left: px;
+    margin-left:15px;
 }
 
 .news-column {
