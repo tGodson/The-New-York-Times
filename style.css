@@ -122,6 +122,7 @@ body {
     display: grid;
     grid-template-columns: 75% 25%;
     margin: 50px;
+    margin-bottom: -15px;
 }
 
 .left-wrapper {
@@ -133,7 +134,7 @@ body {
 .third-row {
     display: grid;
     grid-template-columns: repeat(3, 31.3%);
-    grid-template-rows: repeat(3, 110px);
+    grid-template-rows: repeat(3, 105px);
     justify-content: space-between;
 }
 
@@ -202,11 +203,15 @@ span {
     margin: 30px;
 
 }
+footer{
+    margin-top: -40px;
+}
 
 .news-column ul {
     list-style: none;
     font-size: 14px;
     line-height: 25px;
+    margin-top: -50px;
 }
 
 .horizontal {
@@ -233,3 +238,15 @@ span {
 .small-subscribe{
     font-size: 11px;
 }
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    text-decoration: underline;
+  }
