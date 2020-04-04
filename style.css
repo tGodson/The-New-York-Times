@@ -436,7 +436,10 @@ img[alt="telescope"] {
   justify-self: start;
   margin-right: 70px;
 }
-.first-row span, .second-row span, .third-row span{
+
+.first-row span,
+.second-row span,
+.third-row span {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -455,9 +458,9 @@ footer {
 
 .horizontal {
   display: flex;
- flex-direction: row;
- justify-content: space-between;
- margin: 0px 90px 0px 90px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 90px 20px 90px;
 }
 
 .horizontal li {
@@ -495,5 +498,26 @@ footer {
 }
 
 .most-popular p a {
-    color: black;
+  color: black;
+}
+
+.sticky-footer {
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.bottom-subscribe a {
+  color: white;
+}
+.last-p, .bottom-subscribe{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.last-icon{
+  margin-top: 25px;
 }
