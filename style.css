@@ -386,14 +386,14 @@ img[alt="telescope"] {
 .hr-margin {
   margin-top: -5px;
   color: rgb(209, 204, 204);
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 37px;
+  margin-right: 37px;
 }
 
 .hr-border {
   border: rgb(209, 204, 204) solid 1px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 37px;
+  margin-right: 37px;
 }
 
 .one {
@@ -415,7 +415,7 @@ img[alt="telescope"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 55px;
+  margin: 50px 37px 50px 37px;
 }
 
 .home-page {
@@ -434,7 +434,7 @@ img[alt="telescope"] {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2px 1fr;
   justify-self: start;
-  margin: 30px;
+  margin-right: 70px;
 }
 .first-row span, .second-row span, .third-row span{
   display: flex;
