@@ -415,7 +415,7 @@ img[alt="telescope"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 50px;
+  margin: 55px;
 }
 
 .home-page {
@@ -435,6 +435,11 @@ img[alt="telescope"] {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2px 1fr;
   justify-self: start;
   margin: 30px;
+}
+.first-row span, .second-row span, .third-row span{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 footer {
