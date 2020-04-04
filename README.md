@@ -2,6 +2,8 @@
 This project consisted of making a clone of a New York Times article page.The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. Which creates all kinds of interesting position questions.
 Here's the original page http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
 
+![screenshot](./form-screenshot.png)
+
 By this point, we needed to be familiar with the concepts of:
 
 Embedding images and videos
@@ -18,20 +20,28 @@ Filled in and positioned the additional sections
 Embeded a YouTube video of choice into the page.
 
 
-Built With
-Major frameworks
-HTML, JavaScript and CSS
+## Built With
 
-👤 Author
+- HTML,
+- CSS,
+- Javascript
 
 
-Github: @tGodson
+## Authors
 
-Twitter:
+👤 **Hillary Kiptoo**
 
-Github: @imhilla
+- Github: [@imhilla](https://github.com/imhilla)
+- Twitter: [@hillarykiptoo_](https://twitter.com/hillarykiptoo_)
+- Linkedin: [linkedin](https://linkedin.com/in/)
 
-Twitter: @hillarykiptoo_
+👤 **Tendongze Godson**
+
+- Github: [@tGodson](https://github.com/tGodson)
+- Twitter: [@tendongze-godson](https://twitter.com/tendongze-godson)
+- Linkedin: [linkedin](https://linkedin.com/in/tendongze95)
+
+
 
 🤝 Contributing
 
