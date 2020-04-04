@@ -152,58 +152,61 @@ img[alt="Snow"] {
     line-height: 17px;
     font-weight: 300;
   }
+
+  .absolute {
+      position: absolute;
+  }
   
   .universe {
-    position: absolute;
     top: 24.8264%;
     left: 0.0436%;
     width: 228px;
   }
   
   .enough-time {
-    position: absolute;
+    
     top: 24.8264%;
     left: 25.5619%;
     width: 228px;
   }
   
   .distance {
-    position: absolute;
+    
     top: 24.8264%;
     left: 51.0800%;
     width: 228px;
   }
   
   .coffee {
-    position: absolute;
+    
     top: 24.8264%;
     left: 76.5982%;
     width: 228px;
   }
   
   .not-enough {
-    position: absolute;
+    
     top: 73.4375%;
     left: 0.0436%;
     width: 228px;
   }
 
    .fluctuation {
-    position: absolute;
+    
     top: 73.4375%;
     left: 51.0800%;
     width: 228px;
   }
 
    .inflat {
-    position: absolute;
+    
     top: 73.4375%;
     left: 25.5619%;
     width: 228px;
   }
 
    .expansion {
-    position: absolute;
+    
     top: 73.4375%;
     left: 76.5982%;
     width: 228px;
