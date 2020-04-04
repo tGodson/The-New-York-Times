@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    /* <--- Really freaking cool! */
+     z-index: 10;
     align-items: center;
     padding: 4px 15px 2px;
     height: 36px;
@@ -18,6 +18,9 @@ header {
     justify-content: center;
 }
 
+h6 {
+    visibility:hidden;
+}
 .body1 h2 {
     width: 600px;
     margin-left: auto;
@@ -92,11 +95,21 @@ img[alt="superJumbo"] {
     width: 60px;
 }
 
+.link{
+    text-decoration: underline;
+    color: #326891;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
 .article1 .article1-div p {
     font-size: 0.9375rem;
     line-height: 1.125rem;
     font-family: nyt-franklin,helvetica,arial,sans-serif;
     font-weight: 700;
+    padding-left: 35%;
 }
 
 .article1-div a {
@@ -270,6 +283,50 @@ body {
     color: #333;
 }
 
+.dennis  a{
+    color: #333;
+}
+
+.dennis  a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-link {
+    
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.video {
+    width: 700px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+img[alt="telescope"] {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+#bottom-button {
+    margin-top: 20px;
+}
+
+#bottom-button button {
+    width: 50%;
+}
+
+#bottom-button img{
+    float: right;
+    padding-right: 10px;
+}
 .popular-wrapper {
     display: grid;
     grid-template-columns: 75% 25%;
@@ -382,11 +439,14 @@ footer{
     margin-bottom: 20px;
 }
 
+.horizontal li a {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    padding: 10px 0;
 }
 
 .horizontal li {
-    list-style-type: none;
-    font-size: 11px;
+    list-style: none;
+    font-size:10px;
 }
 .subscribe{
     border-radius: 50%;
