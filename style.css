@@ -459,12 +459,6 @@ footer {
     list-style: none;
     font-size: 10px;
 }
-
-.subscribe {
-    display: flex;
-    flex-direction: column;
-}
-
 .h4-group a img {
     margin-bottom: -8px;
 }
