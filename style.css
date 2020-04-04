@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-     z-index: 10;
+    z-index: 10;
     align-items: center;
     padding: 4px 15px 2px;
     height: 36px;
@@ -19,8 +19,9 @@ header {
 }
 
 h6 {
-    visibility:hidden;
+    visibility: hidden;
 }
+
 .body1 h2 {
     width: 600px;
     margin-left: auto;
@@ -88,14 +89,14 @@ img[alt="superJumbo"] {
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 0.9375rem;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
 }
 
 .free-article {
     width: 60px;
 }
 
-.link{
+.link {
     text-decoration: underline;
     color: #326891;
 }
@@ -107,7 +108,7 @@ img[alt="superJumbo"] {
 .article1 .article1-div p {
     font-size: 0.9375rem;
     line-height: 1.125rem;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 700;
     padding-left: 35%;
 }
@@ -121,12 +122,12 @@ img[alt="superJumbo"] {
     grid-template-columns: 15% 70% 15%;
 }
 
-.astronomers{
+.astronomers {
     font-size: .875rem;
     line-height: 1.125rem;
     font-weight: 400;
     font-style: normal;
-    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    font-family: nyt-cheltenham-sh, georgia, times new roman, times, serif;
     color: #666;
 }
 
@@ -135,7 +136,7 @@ img[alt="superJumbo"] {
 }
 
 .theory h3 {
-    color: 'black';
+    color: black;
     margin-bottom: 0;
 }
 
@@ -147,7 +148,7 @@ img[alt="Snow"] {
     position: relative;
     text-align: center;
     color: black;
-    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
     font-size: 14px;
     line-height: 17px;
     font-weight: 300;
@@ -164,69 +165,62 @@ img[alt="Snow"] {
   }
   
   .enough-time {
-    
     top: 24.8264%;
     left: 25.5619%;
     width: 228px;
   }
   
   .distance {
-    
     top: 24.8264%;
     left: 51.0800%;
     width: 228px;
   }
   
   .coffee {
-    
     top: 24.8264%;
     left: 76.5982%;
     width: 228px;
   }
-  
-  .not-enough {
-    
+
+.not-enough {
     top: 73.4375%;
     left: 0.0436%;
     width: 228px;
-  }
+}
 
-   .fluctuation {
-    
+.fluctuation {
     top: 73.4375%;
     left: 51.0800%;
     width: 228px;
-  }
+}
 
-   .inflat {
-    
+.inflat {
     top: 73.4375%;
     left: 25.5619%;
     width: 228px;
-  }
+}
 
-   .expansion {
-    
+.expansion {
     top: 73.4375%;
     left: 76.5982%;
     width: 228px;
-  }
+}
 
-  .theory-line {
+.theory-line {
     width: 50px;
     border: 1px solid black;
-    left:0;
+    left: 0;
     margin-top: 35px;
-  }  
+}
 
 .theory-bottom p {
     font-size: .875rem;
-line-height: 1.125rem;
-font-weight: 500;
-font-style: normal;
-font-family: nyt-franklin,arial,helvetica,sans-serif;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
-  
+
 .space-cosmos {
     font-size: 14.25px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -281,21 +275,17 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.125rem;
     margin: 0;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-weight: 700;
     color: #333;
 }
 
-.dennis  a{
+.dennis a {
     color: #333;
 }
 
-.dennis  a:hover {
+.dennis a:hover {
     text-decoration: underline;
-}
-
-.subscribe-link {
-    
 }
 
 iframe {
@@ -326,10 +316,11 @@ img[alt="telescope"] {
     width: 50%;
 }
 
-#bottom-button img{
+#bottom-button img {
     float: right;
     padding-right: 10px;
 }
+
 .popular-wrapper {
     display: grid;
     grid-template-columns: 75% 25%;
@@ -340,7 +331,8 @@ img[alt="telescope"] {
 .left-wrapper {
     padding-right: 30px;
 }
-.left-wrapper a{
+
+.left-wrapper a {
     color: black;
 }
 
@@ -363,24 +355,33 @@ span {
     font-size: 10px;
     cursor: pointer;
 }
-.hr, span, .date, .hr-margin, .horizontal li a{
+
+.hr,
+span,
+.date,
+.hr-margin,
+.horizontal li a {
     color: gray;
 }
-.hr-margin{
+
+.hr-margin {
     margin-top: -5px;
-    color: rgb(209, 204, 204) ;
+    color: rgb(209, 204, 204);
     margin-left: 50px;
     margin-right: 50px;
 }
-.hr-border{
+
+.hr-border {
     border: rgb(209, 204, 204) solid 1px;
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .one {
     color: black;
     border: 1px solid;
 }
+
 .date {
     font-size: 12px;
 }
@@ -401,7 +402,8 @@ span {
     justify-content: space-between;
     margin: 50px;
 }
-.home-page{
+
+.home-page {
     font-size: 11px;
     color: blue;
 }
@@ -410,7 +412,7 @@ span {
     border-left: 1px solid grey;
     height: 360px;
     width: 2px;
-    margin-left:15px;
+    margin-left: 15px;
 }
 
 .news-column {
@@ -420,7 +422,8 @@ span {
     margin: 30px;
 
 }
-footer{
+
+footer {
     margin-top: -40px;
 }
 
@@ -430,7 +433,8 @@ footer{
     line-height: 25px;
     margin-top: -50px;
 }
-.news-column ul li a{
+
+.news-column ul li a {
     color: black;
 }
 
@@ -443,43 +447,53 @@ footer{
 }
 
 .horizontal li a {
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
     padding: 10px 0;
 }
 
 .horizontal li {
     list-style: none;
-    font-size:10px;
+    font-size: 10px;
 }
-.subscribe{
-    border-radius: 50%;
-}
-.h4-group{
-    line-height: 0.8px;
-}
-.h4-group img{
+.h4-group a img {
     margin-bottom: -8px;
 }
-.small-subscribe{
+
+.small-subscribe li,
+.small-subscribe2 li {
     font-size: 11px;
+}
+
+.h4-group a {
+    line-height: 0.8px;
+}
+.h4-group{
+  margin-bottom: 55px;
 }
 a:link {
     text-decoration: none;
-  }
-  .hover-row a:hover{
+}
+
+.hover-row a:hover {
     color: gray;
     text-decoration: underline;
-  }
-  .most-popular a:hover, .left-wrapper a:hover, .third-row a:hover {
-      color: gray;
-  }
-   .news-column a:hover{
-    text-decoration:underline;
-  }
-  .last-hr{
-      margin-left: 50px;
-      margin-right: 50px;
-  }
-  .most-popular p a{
-      color: black;
-  }
+}
+
+.most-popular a:hover,
+.left-wrapper a:hover,
+.third-row a:hover {
+    color: gray;
+}
+
+.news-column a:hover {
+    text-decoration: underline;
+}
+
+.last-hr {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.most-popular p a {
+    color: black;
+}
