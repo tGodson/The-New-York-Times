@@ -489,3 +489,7 @@ footer {
   margin-left: 50px;
   margin-right: 50px;
 }
+
+.most-popular p a {
+    color: black;
+}
