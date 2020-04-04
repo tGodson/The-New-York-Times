@@ -454,11 +454,10 @@ footer {
 }
 
 .horizontal {
-  display: grid;
-  grid-template-columns: 2.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 20px;
+  display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin: 0px 90px 0px 90px;
 }
 
 .horizontal li {
