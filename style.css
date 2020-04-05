@@ -421,14 +421,13 @@ img[alt="telescope"] {
 }
 
 .hr-margin {
-  margin: -5px 50px 0 50px;
+  margin: -5px 37px 0 37px;
   color: rgb(209, 204, 204);
 }
 
 .hr-border {
   border: rgb(209, 204, 204) solid 1px;
-  margin: 0 50px;
-  
+  margin: 0 37px;
 }
 
 .one {
@@ -450,7 +449,7 @@ img[alt="telescope"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 50px;
+  margin: 50px 37px 50px 37px;
 }
 
 .home-page {
@@ -469,7 +468,15 @@ img[alt="telescope"] {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2px 1fr;
   justify-self: start;
-  margin: 30px;
+  margin-right: 70px;
+}
+
+.first-row span,
+.second-row span,
+.third-row span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 footer {
@@ -484,9 +491,10 @@ footer {
 }
 
 .horizontal {
-  display: grid;
-  grid-template-columns: 2.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin: 0 80px 20px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 90px 20px 90px;
 }
 
 .horizontal li {
@@ -523,5 +531,26 @@ footer {
 }
 
 .most-popular p a {
-    color: black;
+  color: black;
+}
+
+.sticky-footer {
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.bottom-subscribe a {
+  color: white;
+}
+.last-p, .bottom-subscribe{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.last-icon{
+  margin-top: 25px;
 }
