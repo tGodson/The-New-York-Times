@@ -24,8 +24,7 @@ h6 {
 
 .body1 h2 {
   width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   font-size: 2.5rem;
   line-height: 3rem;
   color: #121212;
@@ -34,6 +33,47 @@ h6 {
   font-style: italic;
 }
 
+.editor {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(226, 226, 226);
+     margin-bottom: 15px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+}
+
+#third-grid{
+    padding: 75px;
+}
+
+.aside {
+    margin-top:430%;
+}
+
+#third-grid a{
+    display: grid;
+     grid-template-columns: 40% 60%;
+     margin-bottom: 15px;
+}
+
+#third-grid a h5{
+    margin: 0 0 0 10px;
+    font-size: 0.7rem;
+  line-height: 1.10rem;
+  color: #666;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+#third-grid a h5:hover {
+    text-decoration: underline;
+}
+
+#third-grid a div img{
+    width: 100%;
+}
 .superJumbo {
   width: 780px;
   font-size: 0.9375rem;
@@ -54,8 +94,7 @@ span {
 
 .superJumbo-div {
   width: 950px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .left-nav img {
@@ -80,6 +119,10 @@ img[alt="superJumbo"] {
   width: 945px;
   height: 532px;
   vertical-align: top;
+}
+
+#font-family {
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .date {
@@ -113,12 +156,11 @@ img[alt="superJumbo"] {
   text-decoration: none;
 }
 
-.theory-bottom p {
+.theory-bottom p{
   font-size: 0.875rem;
   line-height: 1.125rem;
   font-weight: 500;
   font-style: normal;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .first-row p,
@@ -130,7 +172,6 @@ img[alt="superJumbo"] {
 .article1 .article1-div p {
   font-size: 0.9375rem;
   line-height: 1.125rem;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   padding-left: 35%;
 }
@@ -170,7 +211,6 @@ img[alt="Snow"] {
   position: relative;
   text-align: center;
   color: black;
-  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
@@ -201,7 +241,7 @@ img[alt="Snow"] {
 .coffee {
   top: 24.8264%;
   left: 76.5982%;
-  width: 228px;
+  width: 238px;
 }
 
 .not-enough {
@@ -237,7 +277,6 @@ img[alt="Snow"] {
 
 .space-cosmos {
   font-size: 14.25px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.7px;
@@ -247,7 +286,6 @@ img[alt="Snow"] {
 .header-button button {
   border-radius: 3px;
   cursor: pointer;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   transition: ease 0.6s;
   white-space: nowrap;
   vertical-align: middle;
@@ -317,7 +355,6 @@ a:link {
   letter-spacing: 0.02em;
   line-height: 1.125rem;
   margin: 0;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   color: #333;
 }
@@ -384,16 +421,14 @@ img[alt="telescope"] {
 }
 
 .hr-margin {
-  margin-top: -5px;
+  margin: -5px 50px 0 50px;
   color: rgb(209, 204, 204);
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .hr-border {
   border: rgb(209, 204, 204) solid 1px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 50px;
+  
 }
 
 .one {
@@ -451,9 +486,7 @@ footer {
 .horizontal {
   display: grid;
   grid-template-columns: 2.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 20px;
+  margin: 0 80px 20px 80px;
 }
 
 .horizontal li {
@@ -486,8 +519,7 @@ footer {
 }
 
 .last-hr {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 0 50px;
 }
 
 .most-popular p a {
