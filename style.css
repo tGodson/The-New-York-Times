@@ -473,7 +473,7 @@ img[alt="telescope"] {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2px 1fr;
   justify-self: start;
-  margin-right: 70px;
+  margin-right: 40px;
 }
 
 .first-row span,
