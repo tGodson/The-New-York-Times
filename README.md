@@ -27,6 +27,13 @@ Embeded a YouTube video of choice into the page.
 - Javascript
 
 
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/tGodson/The-New-York-Times/b177d613a8e0cb7656d71c45aaf80a30cdd92edf/index.html)
+
+
+
 ## Authors
 
 👤 **Hillary Kiptoo**
