@@ -477,7 +477,7 @@ img[alt="telescope"] {
 
 .news-column {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2px 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2px 1.5fr;
   justify-self: start;
   margin-right: 30px;
 }
