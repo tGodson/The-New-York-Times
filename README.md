@@ -2,7 +2,7 @@
 This project consisted of making a clone of a New York Times article page.The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. Which creates all kinds of interesting position questions.
 Here's the original page http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
 
-![screenshot](./form-screenshot.png)
+![screenshot](./app_screenshot.png)
 
 By this point, we needed to be familiar with the concepts of:
 
