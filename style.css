@@ -533,7 +533,7 @@ footer {
   color: gray;
 }
 
-.news-column a:hover {
+.news-column a:hover, .horizontal a:hover {
   text-decoration: underline;
 }
 
