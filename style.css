@@ -479,7 +479,7 @@ img[alt="telescope"] {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2px 1fr;
   justify-self: start;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 .first-row span,
@@ -554,6 +554,11 @@ footer {
   width: 100%;
   cursor: pointer;
   padding:0;
+}
+
+.popular{
+padding: 0 3%;
+max-width: 1200px;
 }
 
 .bottom-subscribe a {
